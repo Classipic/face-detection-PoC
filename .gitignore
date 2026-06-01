@@ -9,3 +9,4 @@ weights/
 *.onnx
 *.pth
 *.pt
+notebook/adaface
