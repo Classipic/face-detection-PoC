@@ -12,3 +12,6 @@ weights/
 *.pt
 notebook/adaface
 notebook/auraface
+train
+scratch
+task.md
