@@ -5,7 +5,7 @@ import glob
 import numpy as np
 import onnxruntime as ort
 from huggingface_hub import hf_hub_download
-from sklearn.cluster import HDBSCAN ## 어떻게 동작하는지 , numpy로 동작가능한지, 다른 방식은 뭐가 있는지
+from hdbscan_standalone import HDBSCAN  # numpy 전용 독립 구현(sklearn 의존 제거)
 
 
 # ArcFace 표준 정렬 기준점 (112x112)
